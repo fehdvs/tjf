@@ -1,0 +1,125 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.login{
+    background: url('../img/bg_login.png') no-repeat bottom left / cover;
+    height: 100vh;
+}
+
+.login__wrap{
+    max-width: 610px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.login__logo_text{
+    color: #474747;
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.login__logobox{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 24px 24px 88px 24px;
+
+    width: 100%;
+}
+
+.login__title{
+    color: #323233;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.login__texts{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.login__text{
+    color: #5a6175;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login__password{
+    align-self: flex-start;
+}
+
+.login__link{
+    color: #ff6700;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.login__input{
+    position: relative;
+    color: #19191A;
+    padding: 16px 22px;
+    border-radius: 8px;
+    border-color: #dad7d5;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 16px 22px;
+}
+.login__btn{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #0c6ff9;
+    border-radius: 24px;
+    border: none;
+    width: 100%;
+    margin: 23px 0 16px 0;
+}
+.login__icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.login__icon-box{
+    background-color: #000;
+    padding: 8px 41.5px;
+    border-radius: 24px;
+
+}
+
+.login__icon-box_grey{
+    background-color: #5A6175;
+}
+
+.login__icon-box_green{
+    background-color: #2EBD59;
+}
+
+.login__icon-box_white{
+    background-color: #FAF6F4;
+}
+
+.login__input::after{
+    position: absolute;
+    content: '';
+    background: url(../img/eye.svg) no-repeat center center / cover;
+    display: block;
+    width: 25px;
+    height: 13px;
+}
